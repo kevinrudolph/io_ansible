@@ -1,0 +1,8 @@
+# file: group_vars/ubuntu
+# This file contains variables specific to deployments on operating systems based on Ubuntu
+
+user: ubuntu
+hosts_file: /etc/hosts
+home_dir: "/home/{{ user }}"
+tmp_dir: "{{ home_dir }}/tmp"
+results_dir: "{{ home_dir }}/results"
